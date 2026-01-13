@@ -1,0 +1,44 @@
+
+         public class Pet {
+    // 1. Declare INSTANCE VARIABLES
+    private String name;
+    private string type; 
+    private int age; 
+    private double weight;
+    private boolean isNeutered;
+
+    
+     // 2. Define CONSTRUCTOR
+
+public Pet(String name, String type, int age, double weight, boolean isNeutered)
+{
+     this.name = name;
+     this.type = type;
+     this.age = age;
+     this.weight = weight;
+     this.isNeutered = isNeutered; 
+
+}
+     // 3. Define METHODS (getters, toString, setters)
+
+
+Public string getName(){
+    return name;
+}
+
+Public string getType(){
+    return type;
+}
+
+Public string getAge(){
+    return age; 
+}
+
+Public string getWeight(){
+    return weight;
+}
+
+Public string getisNeutered(){
+    return isNeutered;
+}
+         }
