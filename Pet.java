@@ -1,5 +1,4 @@
-
-         public class Pet {
+public class Pet {
     // 1. Declare INSTANCE VARIABLES
     private String name;
     private String type; 
@@ -65,5 +64,5 @@ public void setWeight(double newWeight) {
 public void setIsNeutered(boolean neutered) {
     this.isNeutered = neutered;
 }
-      
-         }
+
+} // end class
